@@ -8,6 +8,7 @@
     --fundo:  #edebf3;
     --cor-fonte: #464646;
     --cor-fonte-texto:#A3A3A3;
+    --laranja: #FFB050;
     --fonte-primaria: "Montserrat", sans-serif;
 
 }
@@ -74,13 +75,99 @@ body{
 }
 
 .agenda{
-    width: 100%;
-    height: 42px;
-    margin-left: 20px;
+    margin: auto;
+    background-color:var(--branco);
+    width: 95%;
+    height: 180px;
+    border-radius: 8px;
+
+
+
 }
 
-.agenda__titulo{
+.agenda__dia{
     font-weight: 700;
     font-size: 16px;
-    line-height: 26.6px;
+    line-height: 25.6px;
+    padding-left: 15px;
 }
+
+.agenda__principal{
+    display: flex;
+    justify-content: space-between;   
+    border-bottom: 0.5px solid var(--cor-fonte-texto);
+    padding-bottom: 5px;
+    
+}
+.imagem__paciente{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;  
+    margin-top: 15px;
+    margin-left: 30px; 
+}
+
+.imagem__chat{
+    margin-top: -30px;    
+    align-items: start;
+    margin-right: 30px;
+}
+
+.agenda__dados{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 50%;    
+}
+
+.agenda__tipo__consulta{
+    display: flex;
+    gap: 5px;
+}
+
+.agenda__nome{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: var(--cor-fonte);
+}
+
+.agenda__class{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19.2px;
+    color: var(--cor-fonte-texto);
+}
+
+.agenda__horario{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19.2px;
+    color: var(--cor-fonte);
+}
+
+.agenda__botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;      
+    gap: 15px;
+   
+   
+}
+
+.botao__link{
+    padding: 10px;
+    border-radius: 8px ;
+    border: 1px solid var(--cor-fonte-texto);  
+    background-color: transparent; 
+}
+
+.video{
+    color: var(--branco);
+    background-color: var(--laranja);
+    border: 1px solid var(--laranja)
+}
+
