@@ -221,7 +221,7 @@ body{
 
 .botao-flutuante {
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
     background-color: var(--azul);
     color: var(--branco);
