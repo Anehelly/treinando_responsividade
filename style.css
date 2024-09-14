@@ -173,7 +173,7 @@ body{
 .endereco{
     background-color: var(--azul);
     color: var(--branco);
-    width: 78%;
+    width: 50%;
     border: 1px solid var(--azul)
 }
 
