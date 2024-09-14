@@ -9,6 +9,7 @@
     --cor-fonte: #464646;
     --cor-fonte-texto:#A3A3A3;
     --laranja: #FFB050;
+    --azul: #4894FF;
     --fonte-primaria: "Montserrat", sans-serif;
 
 }
@@ -76,13 +77,11 @@ body{
 
 .agenda{
     margin: auto;
+    margin-bottom: 10px;
     background-color:var(--branco);
     width: 95%;
-    height: 180px;
+    height: 160px;
     border-radius: 8px;
-
-
-
 }
 
 .agenda__dia{
@@ -90,6 +89,7 @@ body{
     font-size: 16px;
     line-height: 25.6px;
     padding-left: 15px;
+    margin-bottom: 10px;
 }
 
 .agenda__principal{
@@ -108,8 +108,7 @@ body{
     margin-left: 30px; 
 }
 
-.imagem__chat{
-    margin-top: -30px;    
+.imagem__chat{      
     align-items: start;
     margin-right: 30px;
 }
@@ -154,7 +153,7 @@ body{
     justify-content: center;
     margin-top: 15px;      
     gap: 15px;
-   
+    
    
 }
 
@@ -169,5 +168,12 @@ body{
     color: var(--branco);
     background-color: var(--laranja);
     border: 1px solid var(--laranja)
+}
+
+.endereco{
+    background-color: var(--azul);
+    color: var(--branco);
+    width: 78%;
+    border: 1px solid var(--azul)
 }
 
