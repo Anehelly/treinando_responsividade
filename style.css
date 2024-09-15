@@ -233,3 +233,26 @@ body{
 }
 
 
+.camera{
+  bottom: 130px;
+}
+
+.camera__botao{    
+    width: 12px;
+    height: 13px;
+    top: 92px;
+    left: 16px;
+    
+}
+
+.pin{
+    bottom: 190px;
+    
+    
+}
+
+.pin__botao{
+    width: 13px;
+    height: 14px ;
+    text-align: center;
+}
