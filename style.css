@@ -257,7 +257,7 @@ body{
     text-align: center;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px ) {
 
     .cabeçalho,
     .pin,
@@ -277,7 +277,7 @@ body{
         gap: 25px;
     }
 
-    @media screen and (min-width: 1680px){
+    @media screen and (min-width: 1600px){
 
         .agenda{
             width: 30%;
