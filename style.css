@@ -256,3 +256,37 @@ body{
     height: 14px ;
     text-align: center;
 }
+
+@media screen and (min-width: 1000px){
+
+    .cabeçalho,
+    .pin,
+    .camera{
+        display: none;
+    }
+
+    .agenda {
+        width: 40%; /* Garante que o grid ocupe toda a largura */
+        margin: 10px auto; /* Adiciona espaço entre as seções */
+        margin-left: 70px ;
+        display: inline-block;        
+    }
+
+    .lista__rodape{
+        justify-content: center;
+        gap: 25px;
+    }
+
+    @media screen and (min-width: 1680px){
+
+        .agenda{
+            width: 30%;
+            margin-left: 43px
+        }
+    }
+
+   
+
+
+  
+}
